@@ -1,0 +1,55 @@
+.main-text-client-section {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.clients-page {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.clients-portfolio {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-portfolio-svg {
+    display: block;
+    fill: #AFB1B8;
+    width: 106px;
+    height: 60px;
+    transition: var(--fill-transition);
+
+    .clients-portfolio-link:hover &,
+        .clients-portfolio-link:focus & {
+            fill: #2196F3;
+        }
+}
+
+.clients-portfolio-link {
+    display: flex;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: var(--border-color-transition);
+
+    &:hover,
+    &:focus {
+            border-color: #2196F3;
+        }
+}
+
+

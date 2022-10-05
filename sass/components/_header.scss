@@ -1,0 +1,255 @@
+.menu-link {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+    transition: var(--main-transition);
+
+    &:active {
+            color: #2196F3;
+        }
+
+                &::before {
+                    content: '';
+                    display: block;
+                }
+        &:hover,
+        &:focus {
+            color: #2196F3;
+        }
+
+}
+
+
+.menu-link-studio::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px;
+    margin-top: 28px;
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.menu-link-portfolio::before {
+    content: '';
+    display: block;
+}
+
+.menu-link-portfolio::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px;
+    margin-top: 28px;
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+
+/*.menu-link-studio:active::after {
+    display: block;
+    background-color: #2196F3;
+}*/
+
+.currentLink {
+    color: #2196F3;
+}
+
+.menu-link-studio:active {
+    display: block;
+    color: #2196F3;
+}
+
+
+
+.studio-link,
+.portfolio-link,
+.contacts-link {
+    position: relative
+}
+
+
+
+.header-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    transition: var(--main-transition);
+
+    &:hover,
+    &:focus {
+            color: #2196F3
+        }
+
+                &:hover {
+                    fill: #2196F3;
+                }
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header-portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-links-portfolio {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.web-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-links-icon {
+    display: block;
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+    margin-left: 318px;
+    transition: var(--main-transition);
+
+    &:hover {
+            fill: #2196F3;
+        }
+}
+
+
+.header-links {
+    display: flex;
+    fill: #757575;
+    align-items: baseline;
+}
+
+
+
+.header-links-icon-phone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    transition: var(--main-transition);
+
+    &:hover {
+            fill: #2196F3;
+        }
+}
+
+.mail-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    transition: var(--main-transition);
+    display: flex;
+    align-items: center;
+}
+
+.header-links-list-mail {
+    margin-right: 30px;
+}
+
+
+
+.phone-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    display: flex;
+    align-items: center;
+
+    color: #757575;
+    transition: var(--main-transition);
+
+    &:hover,
+    &:focus
+        {
+        color: #2196F3;
+    }
+}
+
+
+.mail-link:hover,
+.mail-link:focus {
+    color: #2196F3;
+}
+
+.header-links-link {
+    cursor: pointer;
+}
+
+.header-portfolio-links-svg {
+    display: block;
+    width: 161px;
+    height: 16px;
+}
+
+
+.header-main-phone-svg {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.header-main-svg {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+
+    &:hover {
+            fill: #2196F3;
+        }
+}
+
+
+.header-links-list-mail {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-link:active {
+    color: #2196F3;
+}
+
+.header-links-list-phone {
+    display: flex;
+    gap: 10px;
+}
+
+
+.header-links-portfolio-main {
+    display: flex;
+}

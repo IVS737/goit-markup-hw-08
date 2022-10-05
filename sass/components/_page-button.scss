@@ -1,0 +1,27 @@
+.page-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 4px;
+}
+
+.page-button-container {
+    margin-left: auto;
+    margin-right: auto;
+}
