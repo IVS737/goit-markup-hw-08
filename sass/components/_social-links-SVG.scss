@@ -5,6 +5,12 @@
     padding-bottom: 30px;
 }
 
+@media screen and (max-width:1199px) {
+.social-links-list {
+    padding-bottom: 24px;
+}
+}
+
 .social-link-icon {
     width: 20px;
     height: 20px;

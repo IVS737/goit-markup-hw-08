@@ -36,6 +36,13 @@
     }
 }
 
+@media screen and (max-width:1199px) {
+    .footer-link {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .main-footer {
     background-color: #2F303A;
     ;
@@ -72,6 +79,13 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width:1199px) {
+    .footer-social-links-word {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 .footer-social-svg {
     display: block;
@@ -106,10 +120,22 @@
     gap: 88px;
 }
 
+@media screen and (max-width:1199px) {
+    .main-footer-links-list {
+        display: flex;
+    }
+}
+
 
 
 .top-right-part-footer {
     margin-left: auto;
+}
+
+@media screen and (max-width:1199px) {
+    .top-right-part-footer {
+        margin-right: auto;
+    }
 }
 
 .footer-container {
@@ -118,10 +144,31 @@
     align-items: baseline;
 }
 
+@media screen and (max-width:767px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .footer-container {
+        flex-wrap: wrap;
+        gap: 165px;
+        row-gap: 60px;
+    }
+}
+
 .right-part-footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .right-part-footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .top-right-footer-text {
@@ -137,6 +184,13 @@
     margin-bottom: 20px;
 }
 
+@media screen and (max-width:1199px) {
+    .top-right-footer-text {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 
 .top-right-footer-svg-icon {
@@ -148,6 +202,13 @@
 .top-right-footer-form {
     display: flex;
     gap: 12px;
+}
+
+@media screen and (max-width:1199px) {
+    .top-right-footer-form {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .top-right-footer-button {
@@ -174,6 +235,7 @@
     justify-content: center;
     cursor: pointer;
 }
+
 
 .top-right-footer-email-input {
     padding-left: 16px;
@@ -209,3 +271,23 @@
                 }
 }
 
+@media screen and (max-width:1199px) {
+    .top-right-footer-email-input {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .left-part-footer {
+        margin-left: 61px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .left-part-footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

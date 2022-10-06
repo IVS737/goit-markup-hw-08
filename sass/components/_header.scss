@@ -145,6 +145,19 @@
     align-items: baseline;
 }
 
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .header-links {
+        flex-direction: column;
+        gap: 10px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header-links {
+        display: none;
+    }
+}
 
 
 .header-links-icon-phone {
@@ -174,6 +187,12 @@
 
 .header-links-list-mail {
     margin-right: 30px;
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .header-links-list-mail {
+        margin-right: 0;
+    }
 }
 
 
@@ -223,6 +242,13 @@
     fill: currentColor;
 }
 
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .header-main-phone-svg {
+        margin-right: 8px;
+        height: 14px;
+    }
+}
+
 .header-main-svg {
     width: 16px;
     height: 12px;
@@ -234,6 +260,13 @@
         }
 }
 
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .header-main-svg {
+        margin-right: 8px;
+        width: 14px;
+        height: 10px;
+    }
+}
 
 .header-links-list-mail {
     display: flex;
@@ -252,4 +285,20 @@
 
 .header-links-portfolio-main {
     display: flex;
+}
+
+@media screen and (max-width:767px) {
+    .mobile-menu__button-svg {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-self: center;
+        
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mobile-menu__button-svg {
+        display: none;
+    }
 }
