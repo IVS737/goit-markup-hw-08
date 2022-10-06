@@ -1504,6 +1504,7 @@ ol {
   left: 0;
   padding-left: 40px;
   padding-top: 48px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu.is-open {
@@ -1610,6 +1611,10 @@ ol {
   cursor: pointer;
 }
 
+.activeLink {
+  color: #2196F3;
+}
+
 .first-page {
   background-color: #C4C4C4;
   padding-bottom: 200px;
@@ -1623,32 +1628,32 @@ ol {
 
 @media screen and (max-width: 767px) {
   .first-page {
-    background-image: url("../web-studio-gallery/mobile-photo/main-page/bg-mobile.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../web-studio-gallery/mobile-photo/main-page/bg-mobile.jpg");
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .first-page {
-    background-image: url("../web-studio-gallery/mobile-photo/main-page/bg-mobile@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../web-studio-gallery/mobile-photo/main-page/bg-mobile@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
   .first-page {
-    background-image: url("../web-studio-gallery/tablet-photo/main-page/bg-tablet.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../web-studio-gallery/tablet-photo/main-page/bg-tablet.jpg");
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .first-page {
-    background-image: url("../web-studio-gallery/tablet-photo/main-page/bg-tablet@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../web-studio-gallery/tablet-photo/main-page/bg-tablet@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .first-page {
-    background-image: url("../web-studio-gallery/desktop-photo/main-page/bg-desktop.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../web-studio-gallery/desktop-photo/main-page/bg-desktop.jpg");
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .first-page {
-    background-image: url("../web-studio-gallery/desktop-photo/main-page/bg-desktop@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../web-studio-gallery/desktop-photo/main-page/bg-desktop@2x.jpg");
   }
 }
 @media screen and (max-width: 1199px) {

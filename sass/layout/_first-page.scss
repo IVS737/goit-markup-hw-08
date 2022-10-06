@@ -13,7 +13,7 @@
 
 @media screen and (max-width:767px) {
     .first-page {
-        background-image: url('../web-studio-gallery/mobile-photo/main-page/bg-mobile.jpg');
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../web-studio-gallery/mobile-photo/main-page/bg-mobile.jpg');
     }
 }
 
@@ -21,13 +21,13 @@
   screen and (min-resolution:192dpi) and (max-width:767px),
   screen and (min-resolution: 2dppx) and (max-width:767px) {
     .first-page {
-      background-image: url('../web-studio-gallery/mobile-photo/main-page/bg-mobile@2x.jpg');
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../web-studio-gallery/mobile-photo/main-page/bg-mobile@2x.jpg');
     }
  }
 
  @media screen and (min-width:768px) {
     .first-page {
-        background-image: url('../web-studio-gallery/tablet-photo/main-page/bg-tablet.jpg');
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../web-studio-gallery/tablet-photo/main-page/bg-tablet.jpg');
     }
  }
 
@@ -35,14 +35,14 @@
  screen and (min-resolution:192dpi) and (min-width:768px),
  screen and (min-resolution: 2dppx) and (min-width:768px) {
      .first-page {
-         background-image: url('../web-studio-gallery/tablet-photo/main-page/bg-tablet@2x.jpg');
+         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../web-studio-gallery/tablet-photo/main-page/bg-tablet@2x.jpg');
      }
  }
 
 
 @media screen and (min-width:1200px) {
     .first-page {
-        background-image: url('../web-studio-gallery/desktop-photo/main-page/bg-desktop.jpg');
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../web-studio-gallery/desktop-photo/main-page/bg-desktop.jpg');
     }
 }
 
@@ -50,7 +50,7 @@
  screen and (min-resolution:192dpi) and (min-width:1200px),
  screen and (min-resolution: 2dppx) and (min-width:1200px) {
      .first-page {
-         background-image: url('../web-studio-gallery/desktop-photo/main-page/bg-desktop@2x.jpg');
+         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../web-studio-gallery/desktop-photo/main-page/bg-desktop@2x.jpg');
      }
 }
 
